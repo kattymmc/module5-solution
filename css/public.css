@@ -111,6 +111,23 @@ h3.menu-item-title {
   font-size: .9em;
   font-style: italic;
 }
+.ng-touched.ng-valid {
+  border: 2px green solid;
+}
+
+.ng-touched.ng-invalid {
+  border: 2px red solid;
+}
+.container-signup{
+  margin: 10px 30% 10px 30%;
+}
+.myinfo{
+  width:30%;
+}
+.myfavoritedish{
+  margin-left: 500px;
+  margin-top: 5px;
+}
 /* END SINGLE CATEGORY PAGE */
 
 
@@ -161,7 +178,7 @@ h3.menu-item-title {
     text-align: center;
   }
   .menu-item-description {
-    text-align: center;;
+    text-align: center;
   }
 }
 
